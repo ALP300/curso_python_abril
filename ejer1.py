@@ -36,9 +36,20 @@ diccionarioDeIngles={"casa": "house", "perro": "dog", "gato": "cat"}
 diccionarioDeIngles["mesa"]="table"
 print(diccionarioDeIngles)
 print(diccionarioDeIngles["mesa"])
+#else if
+nota=19
+if(nota>=18):
+    print("Beca")
+elif(nota>=15):
+    print("Media beca")
+elif(nota>=12):
+    print("Pequeña beca")
+else:
+    print("No tienes beca")
 
 
 
 
-
-
+numeros=(2,4,5,6,7)
+numeros.append(77)
+print(numeros)
